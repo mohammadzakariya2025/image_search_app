@@ -19,3 +19,31 @@ form{
     align-items: center;
     margin-bottom: 60px;
 }
+
+#search-input{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    font-size: 18px;
+    color: #333;
+}
+
+#search-button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color .3s ease-in-out;
+}
+
+#search-button:hover{
+    background-color: #3e8e41;
+}
+
