@@ -19,3 +19,10 @@ form{
     align-items: center;
     margin-bottom: 60px;
 }
+
+#search-input{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+
+}
